@@ -1,0 +1,10 @@
+- name: Página HTML
+  template:
+    src: index.html
+    dest: /var/www/html/index.html
+
+
+- name:
+  get_url:
+    url: https://http2.mlstatic.com/havaianas-do-brasil-chinelo-original-tamanhos-37ao-48-D_NQ_NP_685411-MLB20574673162_022016-F.jpg
+    dest: /var/www/html/imagem.jpg

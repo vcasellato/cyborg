@@ -1,0 +1,19 @@
+- name: Instalando o PUPPET (CENTOS)
+  get_url:
+    url: https://yum.puppet.com/puppet6/puppet6-release-el-7.noarch.rpm
+    dest: /opt/
+  when:  ansible_os_family|lower == 'redhat'
+
+#- command: rpm -ivh /opt/puppet6-release-el-7.noarch.rpm
+#  when:  ansible_os_family|lower == 'redhat'
+
+
+- name: PREREQ PUPPET DEBIAN
+  get_url:
+    url: https://apt.puppetlabs.com/puppet6-release-xenial.deb
+    dest: /opt/teste.deb
+  when:  ansible_os_family|lower == 'debian'
+
+#- command: dpkg -i /opt/puppet6-release-xenial.deb
+#  when: ansible_os_family|lower == 'debian'
+

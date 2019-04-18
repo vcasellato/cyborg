@@ -1,0 +1,5 @@
+---
+- name: PLAYBOOK DE CHAMADA DE ROLE
+  hosts: all
+  roles: 
+    - puppet

@@ -1,0 +1,1000 @@
+  349  cd roles/
+  350  ls
+  351  cd roles/
+  352  vim ../ansible.cfg 
+  353  ping http://525.salas4linux.com.br/
+  354  ping 525.salas4linux.com.br/
+  355  ping 525.salas4linux.com.br
+  356  ansible-galaxy init capuz_vermelho
+  357  ls
+  358  cd capuz_vermelho/
+  359  ls
+  360  cd tasks/
+  361  ls
+  362  vim main.yml 
+  363  cd ..
+  364  ls
+  365  cat README.md 
+  366  vim README.md 
+  367  ls
+  368  cd tasks/
+  369  ls
+  370  > prerequisitos.yml
+  371  > install_nginx.yml
+  372  > deploy.yml
+  373  ls
+  374  vim prerequisitos.yml 
+  375  ls
+  376  mv prerequisitos.yml prerequisitos_debian.yml 
+  377  ls
+  378  cp prerequisitos_debian.yml prerequisitos_centos.yml 
+  379  vim prerequisitos_
+  380  vim prerequisitos_centos.yml 
+  381  ls
+  382  vim install_nginx.yml 
+  383  ls
+  384  scp prerequisitos_centos.yml noturno@192.168.200.12:/home/noturno/
+  385  scp prerequisitos_debian.yml noturno@192.168.200.12:/home/noturno/
+  386  ls
+  387  cd ..
+  388  ls
+  389  cd tasks/
+  390  ls
+  391  vim deploy.yml 
+  392  cd ..
+  393  cd templates/
+  394  ls
+  395  vim index.html
+  396  ls
+  397  cd ../vars/
+  398  ls
+  399  vim main.yml 
+  400  cd ../tasks/
+  401  ls
+  402  vim main.yml 
+  403  ls
+  404  vim main.yml 
+  405  vim install_nginx.yml 
+  406  cd ../tests/
+  407  ls
+  408  cp test.yml /root/playbooks/
+  409  ls
+  410  cd /root/playbooks/
+  411  ls
+  412  mv test.yml jason_tood.yml
+  413  vim jason_tood.yml 
+  414  ls
+  415  vim /etc/ansible/roles/capuz_vermelho/tasks/main.yml 
+  416  ansible-playbook jason_tood.yml 
+  417  vim /etc/ansible/roles/capuz_vermelho/tasks/main.yml 
+  418  ansible-playbook jason_tood.yml 
+  419  vim /etc/ansible/roles/capuz_vermelho/tasks/main.yml 
+  420  vim jason_tood.yml 
+  421  ansible-playbook jason_tood.yml 
+  422  ls
+  423  vim /etc/ansible/roles/capuz_vermelho/vars/main.yml 
+  424  vim /etc/ansible/roles/capuz_vermelho/tasks/main.yml 
+  425  vim /etc/ansible/roles/capuz_vermelho/tasks/deploy.yml 
+  426  vim /etc/ansible/roles/capuz_vermelho/defaults/main.yml 
+  427  ansible-playbook jason_tood.yml 
+  428  ls
+  429  cd ..
+  430  ls
+  431  cd /etc/ansible/roles/
+  432  ls
+  433  vim capuz_vermelho/
+  434  cd capuz_vermelho/
+  435  ls
+  436  vim /etc/ansible/roles/capuz_vermelho/defaults/main.yml 
+  437  vim /root/playbooks/jason_tood.yml
+  438  ansible-playbook jason_tood.yml 
+  439  ansible-playbook /root/playbooks/jason_tood.yml 
+  440  ls
+  441  cd /root/playbooks/
+  442  ls
+  443  vim jason_tood.yml 
+  444  cd - 
+  445  ls
+  446  cd tasks/
+  447  ls
+  448  vim main.yml 
+  449  cat /root/playbooks/jason_tood.yml 
+  450  ls
+  451  cd ../
+  452  cat tests/test.yml 
+  453  cat /root/playbooks/jason_tood.yml 
+  454  cd - 
+  455  cd 
+  456  cd playbooks/
+  457  ls
+  458  ansible-playbook jason_tood.yml 
+  459  vim jason_tood.yml 
+  460  ansible-playbook jason_tood.yml 
+  461  vim jason_tood.yml 
+  462  ansible-playbook jason_tood.yml 
+  463  ansible-playbook jason_tood.yml -vvvv
+  464  ls
+  465  cd /etc/ansible/
+  466  ls
+  467  cd roles/
+  468  ls
+  469  cd capuz_vermelho/
+  470  ls
+  471  vim tasks/main.yml 
+  472  cd - 
+  473  cd 
+  474  ls
+  475  cd playbooks/
+  476  ls
+  477  ansible-playbook jason_tood.yml
+  478  ls
+  479  cd /etc/ansible/roles/
+  480  ls
+  481  cd capuz_vermelho/
+  482  ls
+  483  cd tasks/
+  484  ls
+  485  vim install_nginx.yml 
+  486  ls
+  487  vim deploy.yml 
+  488  ls
+  489  vim prerequisitos_centos.yml 
+  490  vim prerequisitos_debian.yml 
+  491  ls
+  492  vim prerequisitos_debian.yml 
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd vars/
+  497  ls
+  498  vim main.yml 
+  499  cd ..
+  500  ls
+  501  cd templates/
+  502  ls
+  503  vim index.html 
+  504  ansible-playbook /root/playbooks/jason_tood.yml 
+  505  ls
+  506  cd ../
+  507  ls
+  508  cd tasks/
+  509  ls
+  510  cat deploy.yml 
+  511  ls /var/www/html/index.html 
+  512  cat /var/www/html/index.html 
+  513  rm /var/www/html/index.html
+  514  ansible-playbook /root/playbooks/jason_tood.yml 
+  515  ls
+  516  ansible-playbook /root/playbooks/jason_tood.yml -vvv
+  517  ansible-playbook /root/playbooks/jason_tood.yml -v
+  518  ls
+  519  vim main.yml 
+  520  ansible-playbook /root/playbooks/jason_tood.yml -v
+  521  ls
+  522  cp deploy.yml  deploy_nginx.yml 
+  523  vim deploy_nginx.yml 
+  524  ls
+  525  vim deploy.yml 
+  526  ls
+  527  vim main.yml 
+  528  ansible-playbook /root/playbooks/jason_tood.yml -v
+  529  ls
+  530  vim deploy_nginx.yml 
+  531  ls
+  532  vim deploy_nginx.yml 
+  533  ls
+  534  vim main.yml 
+  535  ls
+  536  cd /root/
+  537  ls
+  538  cd playbooks/
+  539  ansible-playbook jason_tood.yml -v
+  540  ls
+  541  cd ..
+  542  ls
+  543  cd /etc/ansible/roles/
+  544  ls
+  545  mkdir puppet
+  546  ansible-galaxy init puppet
+  547  ls
+  548  cd puppet/
+  549  ls
+  550  ansible-galaxy  puppet
+  551  ls
+  552  cd ..
+  553  ls
+  554  cd puppet/
+  555  ls
+  556  cd ..
+  557  ls
+  558  ansible-galaxy init  puppet
+  559  ls
+  560  cd puppet/]
+  561  ls
+  562  cd puppet/
+  563  ls
+  564  cd ..
+  565  rm -rf puppet/
+  566  ansible-galaxy init  puppet
+  567  ls
+  568  cd puppet/
+  569  ls
+  570  cd tasks/
+  571  ls
+  572  > prerequisitos.yml
+  573  > install_ubuntu.yml
+  574  > install_centos.yml
+  575  ls
+  576  vim install_centos.yml 
+  577  ls
+  578  vim prerequisitos.yml 
+  579  l
+  580  ls
+  581  vim prerequisitos.yml 
+  582  ls
+  583  vim install_centos.yml 
+  584  ls
+  585  cat install_centos.yml 
+  586  vim prerequisitos.yml 
+  587  ls
+  588  cat prerequisitos.yml 
+  589  ls
+  590  vim install_centos.yml 
+  591  vim prerequisitos.yml 
+  592  vim install_centos.yml 
+  593  vim install_ubuntu.yml 
+  594  ls
+  595  vim main.yml 
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd tests/
+  600  ls
+  601  cat test.yml 
+  602  ls
+  603  cp test.yml desafiador2.yml
+  604  vim desafiador2.yml 
+  605  cp desafiador2.yml /root/playbooks/
+  606  cd /root/playbooks/
+  607  ls
+  608  ansible-playbook desafiador2.yml 
+  609  vim /etc/ansible/roles/puppet/tasks/install_centos.yml 
+  610  ls
+  611  vim /etc/ansible/roles/puppet/tasks/prerequisitos.yml 
+  612  ansible-playbook desafiador2.yml 
+  613  ansible-playbook desafiador2.yml -v
+  614  ls
+  615  vim /etc/ansible/roles/puppet/tasks/install_ubuntu.yml 
+  616  vim /etc/ansible/roles/puppet/tasks/install_centos.yml 
+  617  ls
+  618  vim /etc/ansible/roles/puppet/tasks/prerequisitos.yml 
+  619  ansible-playbook desafiador2.yml 
+  620  vim /etc/ansible/roles/puppet/tasks/prerequisitos.yml 
+  621  ansible-playbook desafiador2.yml 
+  622  ls
+  623  cd /etc/ansible/
+  624  ls
+  625  cd roles/l
+  626  route
+  627  cd roles/
+  628  ls
+  629  cd puppet/
+  630  ls
+  631  cd tasks/
+  632  ls
+  633  scp * noturno@192.168.200.12/home/
+  634  scp *.yml noturno@192.168.200.12/home/
+  635  scp *.yml noturno@192.168.200.12/home
+  636  scp *.yml noturno@192.168.200.12:/home
+  637  scp *.yml noturno@192.168.200.12:/home/noturno/
+  638  ls
+  639  cd /etc/ansible/
+  640  ls
+  641  ls /root/playbooks/
+  642  ls
+  643  cd roles/
+  644  ls
+  645  ansible-galaxy init lucas
+  646  ls
+  647  cd lucas/
+  648  ls
+  649  cd tasks/
+  650  ls
+  651  cd ..
+  652  ls
+  653  cd ..
+  654  ls
+  655  cd puppet/
+  656  ls
+  657  cd tasks/
+  658  ls
+  659  vim main.yml 
+  660  ls
+  661  vim install_
+  662  vim install_centos.yml 
+  663  ls
+  664  vim main.yml 
+  665  ls
+  666  vim prerequisitos.yml 
+  667  ls
+  668  cat main.yml 
+  669  ls
+  670  vim install_centos.yml 
+  671  ls
+  672  cd ..
+  673  ls
+  674  cd templates/
+  675  ls
+  676  cd ..
+  677  ls
+  678  cd te
+  679  cd tests/
+  680  ls
+  681  vim desafiador2.yml 
+  682  ls
+  683  cd /root/playbooks/
+  684  ls
+  685  ansible-playbook desafiador2.yml 
+  686  ls
+  687  cd /home/vagrant/
+  688  ls
+  689  cp /root/playbooks/* /home/vagrant/
+  690  cp -R /etc/ansible/roles/ /home/vagrant/
+  691  ls
+  692  cp -R * /vagrant/
+  693  ls
+  694  cd /root/playbooks/
+  695  ls
+  696  ansible-playbook desafiador2.
+  697  ansible-playbook desafiador2.yml 
+  698  cd /etc/ansible/
+  699  ls
+  700  cd roles/l
+  701  cd roles/
+  702  ls
+  703  cd puppet/
+  704  ls
+  705  cd tasks/
+  706  ls
+  707  vim install_ubuntu.yml 
+  708  vim prerequisitos.yml 
+  709  ls
+  710  vim install_ubuntu.yml 
+  711  vi install_centos.yml 
+  712  ls
+  713  vim install_ubuntu.yml 
+  714  vim install_centos.yml 
+  715  cd /root/playbooks/desafiador2.yml 
+  716  ansible-playbook /root/playbooks/desafiador2.yml 
+  717  ls
+  718  vim install_centos.yml 
+  719  vim install_ubuntu.yml 
+  720  ansible-playbook /root/playbooks/desafiador2.yml 
+  721  ls
+  722  vim prerequisitos.yml 
+  723  ls
+  724  vim install_ubuntu.yml 
+  725  ls
+  726  ansible-playbook /root/playbooks/desafiador2.yml 
+  727  ls
+  728  vim install_ubuntu.yml 
+  729  ansible all -m -a " dpkg -i | rpm -qa | grep puppet"
+  730  ansible all  -a " dpkg -i | rpm -qa | grep puppet"
+  731  ansible all  -a " dpkg -i puppet | rpm -qa puppet |
+  732  ansible all  -a " dpkg -i puppet | rpm -qa puppet
+  733  ansible all  -a " dpkg -i puppet | rpm -qa puppet"
+  734  ansible all  -a " rpm -qa puppet"
+  735  ansible all  -a " dpkg -i  puppet"
+  736  ansible all  -a " dpkg -i  *puppet* "
+  737  ansible all  -a " dpkg -l *puppet* "
+  738  ansible all  -a " rpm -qa *puppet* "
+  739  ls
+  740  cd ..
+  741  ls
+  742  cd tasks/
+  743  ls
+  744  vim prerequisitos.yml 
+  745  ls
+  746  vim install_ubuntu.yml 
+  747  vim prerequisitos.yml 
+  748  ansible-playbook /root/playbooks/desafiador2.yml 
+  749  ansible-playbook /root/playbooks/desafiador2.yml -vvvv
+  750  cd /etc/
+  751  ls
+  752  cd /etc/ansible/
+  753  ls
+  754  cd roles/
+  755  ls
+  756  cd puppet/
+  757  ls
+  758  cd tasks/
+  759  ls
+  760  vim install_ubuntu.yml 
+  761  vim prerequisitos.yml 
+  762  vim install_ubuntu.yml 
+  763  vim prerequisitos.yml 
+  764  ansible-playbook /root/playbooks/desafiador2.yml 
+  765  ls
+  766  vim prerequisitos.yml 
+  767  ls
+  768  vim install_ubuntu.yml 
+  769  vim prerequisitos.yml 
+  770  ls
+  771  vim install_ubuntu.yml 
+  772  ls
+  773  vim install_ubuntu.yml 
+  774  ansible-playbook /root/playbooks/desafiador2.yml 
+  775  sudo su -
+  776  puppet --version
+  777  ls
+  778  cd /etc/ansible/
+  779  ls
+  780  cd roles/
+  781  ls
+  782  cd puppet/
+  783  ls
+  784  cd tasks/
+  785  ls
+  786  vim prerequisitos.yml 
+  787  ls
+  788  vim install_ubuntu.yml 
+  789  cd 
+  790  puppet resource package ccze
+  791  puppet resource package nmap
+  792  puppet resource package ccze ensure=present
+  793  tail /var/log/syslog 
+  794  tail -f /var/log/syslog  | ccze
+  795  man ccze
+  796  puppet resource service apache2
+  797  puppet resource user joker ensure=present shell/bin/bash managehome=true
+  798  puppet resource user joker ensure=present shell=/bin/bash managehome=true
+  799  puppet resource package puppetserver
+  800  puppet resource package puppetserver ensure=present
+  801  cd /etc/puppetlabs/
+  802  ls
+  803  vim /etc/default/puppetserver 
+  804  puppet resource package puppetserver enable=true ensure=enable
+  805  puppet resource package puppetserver enable=true ensure=running
+  806  puppet resource service puppetserver enable=true ensure=running
+  807  ss -lntp
+  808  ss -lntp ccze
+  809  ss -lntp | ccze
+  810  ss -lntp 
+  811  cd /root/
+  812  vim speedy.pp
+  813  puppet apply speedy.pp 
+  814  vim speedy.pp
+  815  puppet apply speedy.pp 
+  816  vim speedy.pp
+  817  puppet apply speedy.pp 
+  818  vim speedy.pp
+  819  puppet apply speedy.pp 
+  820  vim speedy.pp
+  821  puppet apply speedy.pp 
+  822  vim speedy.pp
+  823  puppet apply speedy.pp 
+  824  vim speedy.pp
+  825  puppet apply speedy.pp 
+  826  vim speedy.pp
+  827  ls /tmp/
+  828  ls /opt/
+  829  vim speedy.pp
+  830  puppet apply speedy.pp 
+  831  md5check /opt/fre
+  832  md5check /opt/memfree 
+  833  md5sum /opt/memfree 
+  834  vim /opt/memfree 
+  835  md5sum /opt/memfree 
+  836  puppet apply speedy.pp 
+  837  cat /opt/memfree 
+  838  facter 192.168.99.20
+  839  facter os 192.168.99.20
+  840  facter os  192.168.99.30
+  841  cd /etc/puppetlabs/
+  842  ls
+  843  cd puppet
+  844  ls
+  845  ls ssl/
+  846  cat puppet.conf 
+  847  vim puppet.conf 
+  848  cat /etc/puppetlabs/puppet/puppet.conf 
+  849  cd ..
+  850  ls
+  851  cd code/
+  852  ls
+  853  cd environments/
+  854  ls
+  855  cd ..
+  856  ls
+  857  cd modules/
+  858  ls
+  859  cd ..
+  860  ls
+  861  cd environments/
+  862  ls
+  863  cd production/
+  864  ls
+  865  cd ..
+  866  cd production/
+  867  ls
+  868  cd ..
+  869  s
+  870  ls
+  871  cd ..
+  872  ls
+  873  cd modules/
+  874  ls
+  875  cd ..
+  876  ls
+  877  cd modules/
+  878  ls
+  879  cd ..
+  880  puppetserver ca list --all
+  881  puppet agent -t --server devops.sala4linux.com.br
+  882  puppet agent -t --server devops.salas4linux.com.br
+  883  ansible -all -a "puppet agent -t --server devops.salas4linux.com.br"
+  884  ansible all -a "puppet agent -t --server devops.salas4linux.com.br"
+  885  ansible all -a shell "puppet agent -t --server devops.salas4linux.com.br"
+  886  ansible all m -a  "puppet agent -t --server devops.salas4linux.com.br"
+  887  ansible all  -a  "puppet agent -t --server devops.salas4linux.com.br"
+  888  puppetserver ca list
+  889  puppetserver ca list --all
+  890  puppetserver ca list all
+  891  vim ../puppet/puppet.conf 
+  892  puppetserver ca list all
+  893  puppetserver ca list --all
+  894  puppetserver ca list
+  895  vim ../puppet/puppet.conf 
+  896  systemctl restart puppetserver
+  897  puppetserver ca list
+  898  puppetserver ca sign --certname docker.salas4linux.com.br
+  899  puppetserver ca sign --all
+  900  puppetserver ca list
+  901  puppetserver ca sign --all
+  902  puppetserver ca list --all
+  903  ansible all m -a  "puppet agent -t --server devops.salas4linux.com.br"
+  904  puppet agent -t --server devops.salas4linux.com.br
+  905  puppet agent -t --server all
+  906  puppet agent -t  all
+  907  ls
+  908  cd /etc/puppetlabs/
+  909  ls
+  910  cd puppet
+  911  ls
+  912  vim puppet.conf 
+  913  ss -lntupan
+  914  ls
+  915  cd ..
+  916  ls
+  917  cd code/
+  918  ls
+  919  cd modules/
+  920  ls
+  921  cd ..
+  922  ls
+  923  cd environments/
+  924  ls
+  925  cd production/
+  926  ls
+  927  cd modules/
+  928  ls
+  929  cd ..
+  930  ls
+  931  cd manifests/
+  932  ls
+  933  cd ..
+  934  cd data/
+  935  ls
+  936  cd ..
+  937  ls
+  938  puppetserver ca list --all
+  939  ss -lntupan | grep 8140
+  940  service puppet status
+  941  ls
+  942  vim hiera.yaml 
+  943  cd ..
+  944  ls
+  945  puppetserver ca list --all
+  946  asdkjashdjkas
+  947  akjshdkajhsd
+  948  askjdhakjshd
+  949  aksjhdkajhsd
+  950  clear
+  951  puppetserver ca list --all
+  952  ls
+  953  vim speedy.pp 
+  954  cp /vagrant/
+  955  cp speedy.pp /vagrant/
+  956  puppet resourc package pdf
+  957  puppet resourc package pdk
+  958  puppet resource package pdk
+  959  puppet resource package pdk ensure=present
+  960  cd /etc/puppetlabs/code/modules/
+  961  ls
+  962  pdk new module mulher_gaviao
+  963  ls
+  964  cd mulher_gaviao/
+  965  ls
+  966  > entendendo_puppet
+  967  echo "spec -> serve para teste" >> entendendo_puppet 
+  968  cat entendendo_puppet 
+  969  cd manifests/
+  970  ls
+  971  > init.pp
+  972  echo "init.pp " >> ../entendendo_puppet 
+  973  ls
+  974  vim init.pp 
+  975  vim ../files/puppet.conf
+  976  cd 
+  977  cd /etc/puppetlabs/code/environments/production/manifests/
+  978  ls
+  979  vim zattana.pp
+  980  ls
+  981  vim zattana.pp 
+  982  cd /etc/puppetlabs/code/modules/
+  983  ls
+  984  cd mulher_gaviao/
+  985  ls
+  986  cd manifests/
+  987  ls
+  988  vim init.pp 
+  989  cd 
+  990  puppet agent -t --server devops.salas4linux.com.br
+  991  ls
+  992  cd /etc/puppetlabs/puppet
+  993  ls
+  994  vim puppet.conf 
+  995  puppet agent -t --server devops.salas4linux.com.br
+  996  service puppet-agent stauts
+  997  service puppet-agent status
+  998  service puppet-agent start
+  999  vim puppet.conf 
+ 1000  puppet agent -t --server devops.salas4linux.com.br
+ 1001  ls
+ 1002  vim puppet.conf 
+ 1003  puppet agent -t --server devops.salas4linux.com.br
+ 1004  vim puppet.conf 
+ 1005  puppet agent -t --server devops.salas4linux.com.br
+ 1006  vim puppet.conf 
+ 1007  ls
+ 1008  cd ..
+ 1009  ls
+ 1010  cd puppetserver/
+ 1011  ls
+ 1012  cd ..
+ 1013  ls
+ 1014  cd code/
+ 1015  ls
+ 1016  cd mu
+ 1017  cd modules/
+ 1018  ls
+ 1019  cd mulher_gaviao/
+ 1020  ls
+ 1021  cd files/
+ 1022  ls
+ 1023  vim puppet.conf 
+ 1024  cd ../../
+ 1025  ls
+ 1026  cd ..
+ 1027  ls
+ 1028  cd mu
+ 1029  cd environments/
+ 1030  ls
+ 1031  cd production/
+ 1032  ls
+ 1033  cd modules/
+ 1034  ls
+ 1035  cd ..
+ 1036  ls
+ 1037  cd production/
+ 1038  ls
+ 1039  cd manifests/
+ 1040  ls
+ 1041  vim zattana.pp 
+ 1042  cd ..
+ 1043  ls
+ 1044  vim environment.conf 
+ 1045  cd ..
+ 1046  ls
+ 1047  cd ..
+ 1048  ls
+ 1049  cd puppet
+ 1050  ls
+ 1051  vim puppet.conf 
+ 1052  ls
+ 1053  cd ..
+ 1054  cd /etc/puppetlabs/puppet
+ 1055  ls
+ 1056  vim puppet.conf 
+ 1057  vim hiera.yaml 
+ 1058  cd ..
+ 1059  ls
+ 1060  cd puppet
+ 1061  cd ..
+ 1062  ls
+ 1063  puppet agent -t --server devops.salas4linux.com.br
+ 1064  ls
+ 1065  cd puppet
+ 1066  ls
+ 1067  cd ..
+ 1068  ls
+ 1069  cd puppet
+ 1070  ls
+ 1071  vim puppet.conf 
+ 1072  cd ..
+ 1073  ls
+ 1074  cd code/modules/mulher_gaviao/files/
+ 1075  ls
+ 1076  vim puppet.conf 
+ 1077  Error: Could not run Puppet configuration client: Invalid duration format '"1h # tempo de tentativas"' for parameter: runtimeout
+ 1078  puppet agent -t --server devops.salas4linux.com.br
+ 1079  ls
+ 1080  vim puppet.conf 
+ 1081  puppet agent -t --server devops.salas4linux.com.br
+ 1082  cd /etc/puppetlabs/puppet
+ 1083  ls
+ 1084  vim puppet.conf 
+ 1085  puppet agent -t --server devops.salas4linux.com.br
+ 1086  ls
+ 1087  cd ..
+ 1088  cd code/
+ 1089  ls
+ 1090  cd modules/
+ 1091  ls
+ 1092  pdk new module canario_negra
+ 1093  ls
+ 1094  cd canario_negra/
+ 1095  ls
+ 1096  cd ..
+ 1097  ls
+ 1098  cd mulher_gaviao/
+ 1099  ls
+ 1100  cd manifests/
+ 1101  ls
+ 1102  vim init.pp 
+ 1103  cd ..
+ 1104  ls
+ 1105  cd files/
+ 1106  ls
+ 1107  vim puppet.conf 
+ 1108  cd /etc/puppetlabs/puppet
+ 1109  ls
+ 1110  vim puppet.conf 
+ 1111  cd /etc/puppetlabs/code/modules/canario_negra/
+ 1112  ls
+ 1113  cd manifests/
+ 1114  > init.pp
+ 1115  vim init.pp 
+ 1116  puppet parser validate init.pp
+ 1117  cp ~/.bashrc ../files/bashrc_base
+ 1118  vim ../files/bashrc_base
+ 1119  vim ../files/bashrc_logout
+ 1120  cd /etc/puppetlabs/code/environments/production/manifests/
+ 1121  ls
+ 1122  vim zattana.pp 
+ 1123  ls
+ 1124  puppet parser validate zatanna.pp
+ 1125  ls
+ 1126  vim zattana.pp 
+ 1127  puppet parser validate zattana.pp
+ 1128  vim zattana.pp 
+ 1129  ls
+ 1130  cd /etc/puppetlabs/code/modules/canario_negra
+ 1131  ls
+ 1132  cd files/
+ 1133  ls
+ 1134  cd ..
+ 1135  ls
+ 1136  cd manifests/
+ 1137  ls
+ 1138  vim init.pp 
+ 1139  ls
+ 1140  cd ..
+ 1141  ls
+ 1142  cd files/
+ 1143  ls
+ 1144  mv bashrc_logout bash_logout
+ 1145  ls
+ 1146  cd ..
+ 1147  ls
+ 1148  cd manifests/
+ 1149  ls
+ 1150  vim init.pp 
+ 1151  cat /root/.bashrc
+ 1152  :q
+ 1153  ls
+ 1154  cat /root/.bashrc_logout 
+ 1155  cat /root/.bashrc
+ 1156  ls
+ 1157  cd ..
+ 1158  ls
+ 1159  cd files/
+ 1160  s
+ 1161  ls
+ 1162  vim bashrc_base 
+ 1163  vim /root/.bashrc
+ 1164  ls
+ 1165  cd /etc/puppetlabs/
+ 1166  ls
+ 1167  cd pupperser
+ 1168  cd puppetserver/
+ 1169  ls
+ 1170  cd ..
+ 1171  ls
+ 1172  cd puppet
+ 1173  ls
+ 1174  vim puppet.conf 
+ 1175  cd co
+ 1176  cd ..
+ 1177  ls
+ 1178  cd code/
+ 1179  ls
+ 1180  cd modules/
+ 1181  ls
+ 1182  cd canario_negra/
+ 1183  ls
+ 1184  cd manifests/
+ 1185  ls
+ 1186  vim init.pp 
+ 1187  ls
+ 1188  cd ..
+ 1189  ls
+ 1190  cd manifests/
+ 1191  ls
+ 1192  cd ../../mulher_gaviao/
+ 1193  ls
+ 1194  cd manifests/
+ 1195  ls
+ 1196  vim init.pp 
+ 1197  cd ../../../environments/
+ 1198  ls
+ 1199  cd production/
+ 1200  ls
+ 1201  cd manifests/
+ 1202  ls
+ 1203  vim zattana.pp 
+ 1204  ls
+ 1205  cd ..
+ 1206  ls
+ 1207  cd manifests/
+ 1208  cd ..
+ 1209  ls
+ 1210  cd ..
+ 1211  ls
+ 1212  cd ..
+ 1213  ls
+ 1214  cd modules/
+ 1215  ls
+ 1216  cd mulher_gaviao/
+ 1217  ls
+ 1218  cd manifests/
+ 1219  ls
+ 1220  vim init.pp 
+ 1221  cd ../../../
+ 1222  ls
+ 1223  cd modules/
+ 1224  ls
+ 1225  cd canario_negra/
+ 1226  ls
+ 1227  cd manifests/
+ 1228  ls
+ 1229  vim init.pp 
+ 1230  vim /root/.bashrc
+ 1231  cd ../../
+ 1232  pdk new module docker
+ 1233  ls
+ 1234  cd docker/
+ 1235  ls
+ 1236  cd manifests/
+ 1237  ls
+ 1238  > init.pp
+ 1239  ls
+ 1240  vim init.pp 
+ 1241  puppet parser validate init.pp
+ 1242  apt install puppet-common
+ 1243  puppet parser validate init.pp
+ 1244  cd /etc/puppetlabs/code/environments/production/manifests/
+ 1245  ls
+ 1246  vim zattana.pp 
+ 1247  ss -nltupan 
+ 1248  service pupper start
+ 1249  service puppet start
+ 1250  service puppet-server start
+ 1251  ss -nltupan 
+ 1252  history | grep puppet
+ 1253  service puppet-agent start
+ 1254  service status puppet-agent
+ 1255  ls
+ 1256  cd /etc/puppetlabs/code/environments/production/manifests/
+ 1257  ls
+ 1258  vim zattana.pp 
+ 1259  service puppet-server start
+ 1260  dpkg -l | grep puppet
+ 1261  service puppetserver start
+ 1262  journalctl -xe
+ 1263  sudo su -
+ 1264  service puppetserver start
+ 1265  service puppetserver status
+ 1266  journalctl -xe
+ 1267  ps aux | grep puppet
+ 1268  w
+ 1269  /usr/bin/puppet start
+ 1270  /etc/init.d/
+ 1271  ls
+ 1272  /etc/init.d/puppetserver start
+ 1273  /etc/init.d/puppetserver restart
+ 1274  journalctl -xe
+ 1275  /etc/init.d/puppetserver restart
+ 1276  ss -lntp 
+ 1277  systemctl status puppetserver
+ 1278  systemctl restart puppetserver
+ 1279  journalctl -xe
+ 1280  cd 
+ 1281  ls
+ 1282  mkdir cyborg
+ 1283  ls
+ 1284  git init
+ 1285  ls
+ 1286  cd cyborg/
+ 1287  ls
+ 1288  cd .git/
+ 1289  git init
+ 1290  cd .git/
+ 1291  ls
+ 1292  vim HEAD 
+ 1293  git config user.name "Yago Ésquines" 
+ 1294  git config user.mail "viniciuscasellato@gmail.com"
+ 1295  git config user.name "Vinicius Casellato" 
+ 1296  cd ..
+ 1297  cat .git/config 
+ 1298  cat ~/.gitconfig 
+ 1299  git config --global user.mail "viniciuscasellato@gmail.com"
+ 1300  git config --global user.name "Vinicius Casellato"
+ 1301  cat ~/.gitconfig 
+ 1302  > README.md
+ 1303  vim README.md 
+ 1304  git status
+ 1305  git add README.md 
+ 1306  git status
+ 1307  git commit -m "Arquivo README - Criado"
+ 1308  git log
+ 1309  > teta
+ 1310  vim teta 
+ 1311  git status
+ 1312  git add teta 
+ 1313  git commit -m " SHAZAM É UMA BOSTA - CRIADO TETA É NOIS " 
+ 1314  git config --global user.email "viniciuscasellato@gmail.com"
+ 1315  > teste
+ 1316  echo "ahjsdgsghjagsd" >> teste 
+ 1317  git status
+ 1318  git add teste 
+ 1319  git commit -m " teste ajshdkahsdksh " 
+ 1320  ls
+ 1321  vim teta.sh
+ 1322  git status
+ 1323  git add teta.sh 
+ 1324  git commit -m "SHELL PARA PINGAR HOSTS"
+ 1325  git log
+ 1326  bash teta.sh 
+ 1327  vim teta.sh 
+ 1328  git status ; git add teta.sh ; git commit -m " TETA.SH V2"
+ 1329  git logs
+ 1330  git log
+ 1331  git log --graph
+ 1332  ls
+ 1333  cd 
+ 1334  ls
+ 1335  cd cyborg/
+ 1336  ls
+ 1337  git status
+ 1338  git remote add kiko https://github.com/vcasellato/cyborg.git
+ 1339  ls
+ 1340  git remote -v
+ 1341  git push kiko master
+ 1342  history 
+ 1343  history
+ 1344  mkdir infraagil
+ 1345  git init
+ 1346  cp -r /etc/puppetlabs/ .
+ 1347  cp -r /etc/ansible/ .
+ 1348  history > historico_aula

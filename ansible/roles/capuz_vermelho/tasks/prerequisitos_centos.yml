@@ -1,0 +1,14 @@
+- name: Parar o Apache
+  systemd:
+    name: httpd
+    state: stopped # -> parando o servico
+  when: ansible_os_family|lower == 'redhat' #comando para pegar o conjunto de distros baseados em debian
+
+
+- name: Remover o Apache
+  package:
+    name: httpd*  # -> usado * para remover todos pacotes que tenham algo com apache
+    state: absent    # -> estado para remover o programa
+  when: ansible_os_family|lower == 'redhat'
+
+

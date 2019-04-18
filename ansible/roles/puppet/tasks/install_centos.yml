@@ -1,0 +1,7 @@
+- name: PUPPET (CENTOS)
+  yum:
+    name: puppet-agent  # -> usado * para remover todos pacotes que tenham algo com apache
+ #   update-cache: yes
+    state: present    # -> estado para remover o programa
+  when: ansible_os_family|lower == 'redhat'
+

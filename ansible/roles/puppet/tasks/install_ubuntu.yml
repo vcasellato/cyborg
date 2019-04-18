@@ -1,0 +1,7 @@
+- name: PUPPET (ubuntu)
+  apt:
+    name: puppet-agent  # -> usado para instalar  pacote do puppet
+    update-cache: yes
+    state: present    # -> estado para instalar o programa
+  when: ansible_os_family|lower == 'debian' # prestar atencao quando usar o family para debian ou ubuntu
+

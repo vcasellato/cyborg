@@ -1,0 +1,36 @@
+Nessa vaga vocÃª irÃ¡ desempenhar o papel DevOps.
+
+Nossa Ã¡rea de EstratÃ©gia e Tecnologia Ã© um pilar fundamental dos nossos negÃ³cios, sendo responsÃ¡vel pela nossa transformaÃ§Ã£o digital. Aqui criamos soluÃ§Ãµes tecnolÃ³gicas sempre idealizando e desenvolvendo tÃ©cnicas e processos de automaÃ§Ã£o, seja para aprimorar a experiÃªncia de trabalho das nossas equipes ou aumentar a capacidade de entrega dos nossos produtos e serviÃ§os.  
+
+
+Como serÃ¡ seu dia a dia:  
+
+-Compreender as necessidades e desafios de um projeto web, tanto no Ã¢mbito de operaÃ§Ãµes da infraestrutura como no ciclo de desenvolvimento de software e buscar soluÃ§Ãµes para sustentar suas estratÃ©gias e metas de negÃ³cio;  
+-Trabalhar em times de alta performance para desenvolver e manter ferramentas de provisionamento, configuraÃ§Ã£o, deploy e monitoraÃ§Ã£o de diferentes stacks em uma infraestrutura escalÃ¡vel e resiliente;  
+- Automatizar tarefas do pipeline de integraÃ§Ã£o e entrega de software;  
+- Planejar e executar plano de capacidade de infraestrutura;  
+- Analisar o desempenho de sistemas e implementar soluÃ§Ãµes para gargalos de performance;   
+- Tratar incidentes e participar da anÃ¡lise e soluÃ§Ã£o de sua causa raiz;  
+
+
+Do que vocÃª precisa:  
+
+- Facilidade de trabalhar dentro de times multi-disciplinares com metodologia Ã¡gil;  
+- ExperiÃªncia com infraestrutura de aplicaÃ§Ãµes web de alta escala;  
+- ExperiÃªncia com sistema operacionais Linux e suas configuraÃ§Ãµes de rede;  
+- Interesse em programar em todos os nÃ­veis do stack tecnolÃ³gico. ExperiÃªncia com Ruby, Python, Node, Golang, Lua, etc  
+- Conhecimento em alguma soluÃ§Ã£o de gerÃªncia de configuraÃ§Ã£o, como Puppet, Chef, Ansible, etc;  
+- Conhecimento de instalaÃ§Ã£o e configuraÃ§Ã£o de webserver Nginx;   
+- Conhecimento de automaÃ§Ã£o de deploy de software (capistrano, fabric, etc);  
+- Capacidade de se comunicar em inglÃªs;  
+- Conhecimento em soluÃ§Ãµes de virtualizaÃ§Ã£o e containers como Virtualbox, Vagrant, Docker, Kubernetes, etc;  
+- PrÃ¡tica em ambientes de cloud computing como AWS, Google Cloud, Azure, Heroku, etc;  
+- PrÃ¡tica em escrever cÃ³digo limpo e legÃ­vel para pessoas;  
+- Conhecimento de prÃ¡ticas de XP (TDD, pair programming, refactoring, continuous integration, etc);  
+- Conhecimento de testes unitÃ¡rios, de aceitaÃ§Ã£o, mocks, Selenium, etc;  
+
+
+Conhecimentos que te destacam:  
+
+- Familiaridade com prÃ¡ticas de seguranÃ§a da informaÃ§Ã£o como criptografia, certificados e gerenciamento de chaves;
+- ExperiÃªncia com integraÃ§Ã£o e entrega contÃ­nua;  
